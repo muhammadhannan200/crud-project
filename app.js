@@ -28,6 +28,13 @@ function getTotal() {
      
 
 }
+/*-----------NOTE----------------*/
+/* who want try it on localsoarge*/
+/*
+1-remove the comminte
+2-put comment on line 46 data=[]
+
+/*
 let data;
 if(localStorage.product!=null){//if there are Data
     data=JSON.parse(localStorage.product)
@@ -35,8 +42,8 @@ if(localStorage.product!=null){//if there are Data
 }
 else {
     let data=[]
-}
-// let data=[]
+}*/
+let data=[]
 creat.onclick=function(){
     let newProduct={
         title:title.value,
